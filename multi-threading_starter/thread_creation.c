@@ -37,6 +37,7 @@ int main(int argc, char **argv){
   thread_create();
   printf("main fn paused\n");
 	pause();
+  // pthread_exit(0);
 	return 0;
 
 }
